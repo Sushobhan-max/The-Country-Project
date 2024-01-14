@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1000px) {
+    .for-res {
+        flex-direction: column;
+    }
+
+    .res {
+        margin: 0 auto;
+    }
+
+    .ress {
+        margin: 28px auto;
+    }
+
+    .resv {
+        height: 32vh;
+        /* top: 23vh !; */
+    }
+
+    .resp {
+        font-size: 12px;
+        padding: 0 15px
+    }
+
+    .mt {
+        margin-top: 20px;
+    }
+
+    .bottom1 {
+        bottom: -80vh;
+    }
+
+    .bottom2 {
+        bottom: -68vh;
+    }
+
+    .bottomtext2 {
+        top: 69vh;
+    }
+
+    .bottomtext1 {
+        top: 89vh;
+    }
+}

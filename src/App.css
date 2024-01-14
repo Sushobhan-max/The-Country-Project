@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins&family=Ubuntu&family=Ubuntu+Condensed&display=swap');
+body {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: 'Bree Serif', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.slideDownAnimation {
+  transition: top 1s ease; 
+}
+
+.slideUpAnimation {
+  transition: bottom 1s ease; 
+}
+@keyframes fadeInn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slideDownAnimation2 {
+  animation: fadeInn 1.5s ease-in-out; 
+}
+
+/* YourComponent.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slideDownAnimation2 {
+  animation: fadeIn 1.5s ease-in-out;
+}
+.Navbar{
+  backdrop-filter: blur(10px);
+  background-color: rgb(0 0 0 / 50%);
+}
+.map-bg{
+  background: rgba(208, 208, 208, 0.2);
+    backdrop-filter: blue(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.section1::before{
+  position: absolute;
+    content: '';
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    background: #182737;
+    z-index: 0;
+}
+.swipup{
+  transform: translateY(-110%);
+}
+.earth-container {
+  transition: transform 0.5s ease
+}
+
+.p-hvr {
+  position: relative;
+  overflow: hidden; 
+  transition: transform 0.5s ease;
+}
+.p-hvr:hover{
+  transform: translateY(-20%);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+.p-hvr2 {
+  position: relative;
+  overflow: hidden; 
+  transition: transform 0.5s ease;
+}
+.p-hvr2:hover{
+  transform: translateY(-20%);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+.p-hvr3 {
+  position: relative;
+  overflow: hidden; 
+  transition: transform 0.5s ease;
+}
+.p-hvr3:hover{
+  transform: translateY(-20%);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+.p-hvr::before {
+  content: "";
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(67, 213, 0), rgb(12, 60, 0)); 
+  z-index: -1;
+  transition: top 0.3s ease; 
+}
+.p-hvr:hover::before {
+  top: 0; 
+}
+.p-hvr2 {
+  position: relative;
+  overflow: hidden; 
+}
+.p-hvr2::before {
+  content: "";
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(228, 209, 0), rgb(91, 90, 0)); 
+  z-index: -1;
+  transition: top 0.3s ease; 
+}
+.p-hvr2:hover::before {
+  top: 0; 
+}
+
+
+.p-hvr3 {
+  position: relative;
+  overflow: hidden; 
+}
+.p-hvr3::before {
+  content: "";
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(222, 0, 0), rgb(56, 0, 0)); 
+  
+  z-index: -1;
+  transition: top 0.3s ease; 
+}
+.p-hvr3:hover::before {
+  top: 0; 
+}
+
+.divsty{
+  background:rgb(21, 21, 21);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  
+}
+.divsty:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  background-color:rgb(30, 30, 30);
+}
+.resn{
+  /* height: '60vh', position: 'absolute',  */
+  position: absolute;
+  height: 60vh;
+  }
+.nomp{
+  padding: 0 43vh;
+}
+.bottom2{
+  bottom: -86vh;
+}
+.bottom1{
+  bottom: -92vh;
+}
+
+.bottomtext2 {
+  top: 86vh;
+}
+.bottomtext1 {
+  top: 89vh;
+}
