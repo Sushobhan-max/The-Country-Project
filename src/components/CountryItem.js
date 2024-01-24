@@ -40,8 +40,9 @@ const CountryItem = (props) => {
     datafetching()
   }
   return (
-    <div>
-      <div className="section1 d-flex align-items-center justify-content-center" style={{ background: 'transparent', position: 'relative', height: '54vh' }}>
+    <>
+
+      <div className="section1 d-flex align-items-center justify-content-center" style={{ background: 'transparent', position: 'relative', height: '350px' }}>
         <div className='' style={{ position: 'absolute', top: '56px' }}>
 
           <div className='text-center' style={{ position: 'relative', bottom: '1rem' }}>
@@ -104,7 +105,7 @@ const CountryItem = (props) => {
         </div>
       </div>
 
-      <div className='my-5'>
+      <div className='my-5' >
         <div className='container my-5'>
           <h3>What is The Country Project ?</h3>
           <p>"The Country Project" aims to be a go-to resource for in-depth information about countries around the world. It offers a user-friendly platform where visitors can explore and learn about various aspects of different nations, from geographical and demographic details to cultural and historical insights, "The Country Project" envisions creating a platform that not only serves as an informative resource but also fosters curiosity, appreciation, and understanding of the diverse world we live in.</p>
@@ -113,36 +114,36 @@ const CountryItem = (props) => {
             <h4>Was this Project Helpful ? <span><i className="fa-solid fa-thumbs-up"></i></span> <span><i className="fa-solid fa-thumbs-down"></i></span></h4>
 
             <div className='d-flex for-res align-items-center gap-5'>
-              <span className='p-1 p-hvr' ><span><i className="fa-regular fa-face-smile"></i></span> Yes, it Was Greate</span>
-              <span className='p-1 p-hvr2' ><span><i className="fa-regular fa-face-frown-open"></i></span> Sort of, Thanks</span>
-              <span className='p-1 p-hvr3' ><span><i className="fa-regular fa-face-frown"></i></span> Not Really</span>
+              <span className='p-1 p-hvr my-1' ><span><i className="fa-regular fa-face-smile"></i></span> Yes, it Was Greate</span>
+              <span className='p-1 p-hvr2 my-1' ><span><i className="fa-regular fa-face-frown-open"></i></span> Sort of, Thanks</span>
+              <span className='p-1 p-hvr3 my-1' ><span><i className="fa-regular fa-face-frown"></i></span> Not Really</span>
             </div>
           </div>
         </div>
         <div className="container my-4">
           <h3>Related Resources</h3>
 
-          <div className='d-flex for-res justify-content-center gap-5 my-5'>
-            <div className='divsty p-4 d-flex flex-column align-items-center justify-content-center'>
+          <div className='d-flex for-res justify-content-center gap-3 my-5'>
+            <div className='divsty p-4 d-flex flex-column align-items-center justify-content-center my-2'>
               <h4><span><i className="fa-regular fa-pen-to-square"></i></span> Blog</h4>
               <p>Updating an Existing Country <br /> Monitor to Add More info</p>
             </div>
-            <div className='divsty p-4 d-flex flex-column align-items-center justify-content-center'>
+            <div className='divsty p-4 d-flex flex-column align-items-center justify-content-center my-2'>
               <h4><span><i className="fa-solid fa-video"></i></span> video</h4>
               <p>Monitoring countries using the <br />Web Page Speed (Browser)</p>
             </div>
-            <div className='divsty p-4 d-flex flex-column align-items-center justify-content-center'>
+            <div className='divsty p-4 d-flex flex-column align-items-center justify-content-center my-2'>
               <h4><span><i className="fa-solid fa-microphone-lines"></i></span> Webinar</h4>
               <p>3 new features to enhance your  <br /> countrymonitoring experience</p>
             </div>
-            <div className='divsty p-4 d-flex flex-column align-items-center justify-content-center'>
+            <div className='divsty p-4 d-flex flex-column align-items-center justify-content-center my-2'>
               <h4><span><i className="fa-solid fa-handshake-angle"></i></span> Webinar</h4>
               <p>add a country monitor</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
